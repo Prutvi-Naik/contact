@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;   
+
+}
+body{
+    display: flex;
+    justify-content: center;
+  background-color: rgb(69, 43, 8);
+
+}
+.container{
+    margin-top: 40px;
+    height: 530px;
+    width: 350px;
+    background-color: rgb(240, 148, 0);
+    border-radius: 10px;
+    /* padding: 25px; */
+}
+#photo{
+    height: 250px;
+    width: 320px;
+    /* border: 2px solid red; */
+    margin: 15px;
+    display: block;
+    opacity: 0.7;
+    border-radius: 15px;
+}
+.s{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    margin-left: 20PX;
+    padding: 3px;
+
+}
+#span1{
+    border: 0.4px solid black;
+    
+    border-radius: 5px;
+    padding: 5px;
+
+}
+#span2{
+    border: 0.4px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+h1{
+    text-transform: capitalize;
+    margin-left:35px ;
+    margin-top: 10px;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+button{
+    padding: 17px;
+    margin-top: 5px;
+    margin-left: 95px;
+    border-radius: 40%;
+ background-color:rgba(40, 193, 193, 0.342);
+ color: rgb(119, 0, 255);
+ text-transform: capitalize;
+ font-size: 15px;
+ cursor: progress;
+}
+.container:hover{
+   
+    background-color: rgba(226, 138, 6, 0.521);
+    border-radius: 15px;
+    cursor:all-scroll;
+}
+#photo:hover{
+    cursor: zoom-in;
+}
+.s:hover{
+    cursor: grabbing;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+  
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
